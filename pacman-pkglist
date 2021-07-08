@@ -34,7 +34,6 @@ discord
 dmidecode
 dmraid
 dnsmasq
-docker
 dosfstools
 e2fsprogs
 ecryptfs-utils
