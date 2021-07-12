@@ -81,6 +81,7 @@ iproute2
 iputils
 jetbrains-toolbox
 jfsutils
+kdeconnect
 kvantum-manjaro
 less
 lib32-flex
@@ -174,7 +175,9 @@ sed
 shadow
 spectre-meltdown-checker
 speedtest-cli
+spotify
 squashfs-tools
+sshfs
 sudo
 sysfsutils
 syslog-ng
