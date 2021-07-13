@@ -13,6 +13,7 @@ b43-fwcutter
 bash
 binutils
 bison
+blueberry
 bluez-utils
 bmenu
 broot
@@ -26,6 +27,7 @@ cpupower
 crda
 cronie
 cryptsetup
+cura
 device-mapper
 dfc
 dhclient
@@ -162,6 +164,8 @@ powertop
 procps-ng
 psmisc
 pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
 qt5-styleplugins
 qt5ct
 ranger
@@ -206,6 +210,7 @@ vulkan-radeon
 w3m
 wget
 which
+wine
 wmutils
 wpa_supplicant
 xautolock
