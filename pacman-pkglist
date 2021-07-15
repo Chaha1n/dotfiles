@@ -98,6 +98,7 @@ libva-vdpau-driver
 licenses
 lightdm-slick-greeter
 linux510
+linux510-headers
 logrotate
 lvm2
 lxappearance
@@ -195,7 +196,9 @@ timeshift
 tlp
 tolua++
 tree
+ttf-cica
 ttf-dejavu
+typora
 ufw
 unzip
 upower
@@ -204,6 +207,7 @@ util-linux
 vi
 viewnior
 vim
+vmware-workstation
 volumeicon
 vulkan-intel
 vulkan-radeon
