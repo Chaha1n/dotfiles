@@ -22,6 +22,7 @@ btrfs-progs
 bzip2
 clipit
 code
+compton-conf
 conky-lua-nv
 coreutils
 cpupower
@@ -75,6 +76,7 @@ gvfs-mtp
 gvfs-smb
 gzip
 haveged
+hexedit
 hexyl
 htop
 i3-default-artwork
@@ -215,6 +217,7 @@ vulkan-radeon
 w3m
 wget
 which
+windscribe-cli
 wine
 wmutils
 wpa_supplicant
