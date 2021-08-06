@@ -1,3 +1,2 @@
-/.config
-!/.config/rofi/*
-
+.config/*
+!.config/rofi
