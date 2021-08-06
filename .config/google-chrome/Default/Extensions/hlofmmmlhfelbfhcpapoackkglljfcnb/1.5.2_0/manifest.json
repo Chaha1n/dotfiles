@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background/lib/gunzip.min.js", "js/background/lib/kuromoji.js", "js/common/common-min.js", "js/background/background-min.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Subtitles for Language Learning (Prime Video)"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/common/common-min.js", "js/contents/contents-min.js" ],
+      "matches": [ "https://www.amazon.ca/*", "https://www.amazon.co.uk/*", "https://www.amazon.co.jp/*", "https://www.amazon.com/*", "https://www.amazon.com.au/*", "https://www.amazon.de/*", "https://www.amazon.cn/*", "https://www.amazon.sg/*", "https://www.amazon.es/*", "https://www.amazon.fr/*", "https://www.amazon.nl/*", "https://www.amazon.in/*", "https://www.amazon.it/*", "https://www.amazon.com.mx/*", "https://www.amazon.ae/*", "https://www.amazon.com.tr/*", "https://www.amazon.com.br/*", "https://www.amazon.se/*", "https://www.primevideo.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "icons/logo128.png",
+      "16": "icons/logo16.png",
+      "48": "icons/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3tU/E3FwS56ZR9577yufTFXq3sxaDr0KViQjjJcFoTocdyhRNVkm5LcLEniW248uVbKf3UtROM+ljquEY4+lItrgfb3APe13z/hsGYFVM+BRCcbIqq4Rmr/mrpztEcl6zm9zHdV1MJATws2ObSQHH3b8S7Hm4MYF/lW5kaL6N5MMI1xDikqvAROaJVWqambpyy6g3iaFdMOsQrEAw+Hj9NHwnlGrP0dFBnoZHbKdf6bqkIbKhH3Sx1YJppluPpeAj5avpYFjJ2q7i2xaNJWIDLiS/cWQ0VGl5NKGbQwMrDNEFZJDTBipmaI28QK4oOzesQatMWM48sfKZFE2Mk3OXwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "unlimitedStorage", "background", "https://*.subtitlesfll.com/*", "https://*.opensubtitles.org/*", "https://clients5.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.2",
+   "web_accessible_resources": [ "js/*", "js/scripts/*", "icons/*", "*.html" ]
+}

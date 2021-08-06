@@ -1,0 +1,1 @@
+(function(){var b=window.XMLHttpRequest.prototype.open;window.XMLHttpRequest.prototype.open=function(d,a,e,f,g){a&&0<=a.indexOf("/GetPlaybackResources")&&this.addEventListener("loadend",function(c){window.postMessage({type:"/GetPlaybackResources",url:a,body:c.srcElement.response},window.origin)});b.apply(this,[].slice.call(arguments))}})();

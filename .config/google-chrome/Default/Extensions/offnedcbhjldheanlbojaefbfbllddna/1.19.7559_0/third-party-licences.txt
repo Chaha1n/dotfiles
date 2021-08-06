@@ -1,0 +1,26 @@
+bitbucket-url-to-object@0.3.0 (https://www.npmjs.com/package/bitbucket-url-to-object)
+MIT (http://opensource.org/licenses/MIT)
+
+content-scripts-register-polyfill@1.0.0 (https://www.npmjs.com/package/content-scripts-register-polyfill)
+MIT (http://opensource.org/licenses/MIT)
+
+github-url-to-object@4.0.4 (https://www.npmjs.com/package/github-url-to-object)
+MIT (http://opensource.org/licenses/MIT)
+
+is-url@1.2.4 (https://www.npmjs.com/package/is-url)
+MIT (http://opensource.org/licenses/MIT)
+
+parse-bitbucket-url@0.3.0 (https://www.npmjs.com/package/parse-bitbucket-url)
+MIT (http://opensource.org/licenses/MIT)
+
+selector-observer@2.1.6 (https://www.npmjs.com/package/selector-observer)
+MIT (http://opensource.org/licenses/MIT)
+
+selector-set@1.1.5 (https://www.npmjs.com/package/selector-set)
+MIT (http://opensource.org/licenses/MIT)
+
+webext-additional-permissions@1.0.0 (https://www.npmjs.com/package/webext-additional-permissions)
+MIT (http://opensource.org/licenses/MIT)
+
+whatwg-fetch@3.0.0 (https://www.npmjs.com/package/whatwg-fetch)
+MIT (http://opensource.org/licenses/MIT)

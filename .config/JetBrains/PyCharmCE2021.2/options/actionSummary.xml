@@ -1,0 +1,19 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="2" l="1628212024970" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="13" l="1628212076291" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1628212023815" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1628212014225" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
+      <i c="2" l="1628212010022" />
+    </e>
+  </component>
+</application>

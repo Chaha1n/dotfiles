@@ -1,0 +1,14 @@
+2021/08/06-18:47:52.712 4ab Reusing MANIFEST /home/fumiya/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/06-18:47:52.712 4ab Recovering log #26
+2021/08/06-18:47:52.713 4ab Reusing old log /home/fumiya/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000026.log 
+2021/08/06-18:47:52.713 4ab Delete type=2 #24
+2021/08/06-18:47:53.174 483 Level-0 table #31: started
+2021/08/06-18:47:53.174 483 Level-0 table #31: 3224 bytes OK
+2021/08/06-18:47:53.175 483 Delete type=0 #26
+2021/08/06-18:47:53.175 483 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x01\x1f\x01\x0b\x00h\x00e\x00l\x00l\x00o\x00 \x00w\x00o\x00r\x00l\x00d\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1561 : 1
+2021/08/06-18:47:53.175 483 Compacting 1@0 + 1@1 files
+2021/08/06-18:47:53.176 483 Generated table #32@0: 238 keys, 4887 bytes
+2021/08/06-18:47:53.176 483 Compacted 1@0 + 1@1 files => 4887 bytes
+2021/08/06-18:47:53.176 483 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/06-18:47:53.176 483 Delete type=2 #31
+2021/08/06-18:47:53.176 483 Manual compaction at level-0 from '\x00\x0a\x01\x1f\x01\x0b\x00h\x00e\x00l\x00l\x00o\x00 \x00w\x00o\x00r\x00l\x00d\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1561 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

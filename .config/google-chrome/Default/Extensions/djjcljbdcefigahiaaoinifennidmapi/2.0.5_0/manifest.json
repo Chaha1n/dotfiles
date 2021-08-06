@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "axios.min.js", "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-3.4.1.min.js", "content.js" ],
+      "matches": [ "https://www.youtube.com/*" ]
+   } ],
+   "description": "YouTube™ライブのリマインダーをGoogleカレンダー™に追加します。",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnisnI4/Fg+0bsITfYOI2I7UHaJbnc8//m1F4pODGXhyKfWya6UPFT65uxRcWfunJQdIQrilDdmpgUoFpm4bEaItuGiPr8iyYW4MOxVXnNhaQ2xL24/RdJhP8s1XPi7XFAuKNfeOj+KWjDGCfBdHpy33QrXCWzdsKskIKYMHbZf92dtd14voyNcKDV/WzALDSBp18ED0iHE003pPBjv2x6uXLRd1PC8DX0ZXFbJCly5CpRXelJRt+ksrY191JH7wbASS8bc8R4HJdCjC83SUweZsc5CRNlTFbFWQjKuQtBFP9PcYkA6alhtRRfp14fcjuSVCtfJ1hjg61S/hjEQZU1QIDAQAB",
+   "manifest_version": 2,
+   "name": "Reminder Plus for YouTube™",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "short_name": "YouTubeReminder+",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.5"
+}

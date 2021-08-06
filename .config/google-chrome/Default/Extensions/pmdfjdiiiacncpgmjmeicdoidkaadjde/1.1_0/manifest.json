@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery-3.3.1.min.js", "js/main.js" ],
+      "matches": [ "https://atcoder.jp/contests/*/tasks" ]
+   } ],
+   "description": "問題一覧ページにACした人数を表示します",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvesjIjkH8jNjz5Ax6fsHk3hbT9x/n2Z/mL2yKHtt0ReGJ4fDeTpxuHSSktbouNvpuJAbnFFmu08YJK9tVjr9JSFMESc2SdNfbfTma+85MSZgV6u9mN896xHc7wOo8k9bgcSoQ2tAB2uQvscaiRYvliI2Ic3jWcJZs/RxQNgJ/D+cbSxMWGR1Mf0ldGbOZ2FutzEJERRQEbTYIXxdddRcoxC6v0gbeCgzhazC9LeakH4hVGgucUFHVxf2+nQh/46oZLEmQUODWygBAxrY8fFLixpZb3TFfsH+Szd9kFt0AklhJ/j5ER8O4UfP4Jeiju440u/QrQLlXDcPBQkl3p3KAQIDAQAB",
+   "manifest_version": 2,
+   "name": "AtCoder ACer",
+   "permissions": [ "http://beta.atcoder.jp/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

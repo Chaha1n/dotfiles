@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "icon_128.png"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "trocker.js" ],
+      "matches": [ "*://mail.google.com/*", "*://inbox.google.com/*", "*://*.mail.live.com/*", "*://*.outlook.live.com/*", "*://*.outlook.office365.com/*", "*://*.outlook.office.com/*", "*://*.mail.yahoo.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "homepage_url": "https://trockerapp.github.io",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn0p6ox/sNHEKazUVt1k3wOtzSKXJdTFwGWFNZXNHcTGPEjOgju1CXw/fxQFijaXmlFVWzE0mzxlzBbQ1E1fUbIc5AszmaWJyifuXvy5t98xSka6PTpNGBbgqp8VjrpkKLraoHKK1WfykMUx3VFrvlPdLl/cPZ14y9cc4mBZgy3VNlUrmBpbfkyG/I2BPdd5eo+oi0Y9olucFFgkWbwtdHi5jVBWGceOKhx1UgrT/kKxFv/z3rlCJ/WrU9zDH9+vai+6SmZS40SZRFnZ0IWLTPrYe7X3gAyoQZUOWKp88EPnPK6F2UcxqOzjoBRuxZaChKMEqFKkgScjc9kU1ZJ7l3wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "optional_permissions": [ "tabs" ],
+   "options_ui": {
+      "chrome_style": false,
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>", "*://*.google.com/*", "*://*.live.com/*", "*://*.googleusercontent.com/*" ],
+   "short_name": "__MSG_extension_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6.15",
+   "web_accessible_resources": [ "tl.png", "td.png", "tlc.png", "tracked.png", "bypasser.html" ]
+}

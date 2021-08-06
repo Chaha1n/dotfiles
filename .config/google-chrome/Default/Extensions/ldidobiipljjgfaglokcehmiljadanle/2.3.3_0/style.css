@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+}
+
+/*option*/
+#gHeader {
+    background-color: #666;
+}
+#gHeader h1 {
+    font-size: 16px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+#prefNameArea {
+    margin: 10px 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+#prefNameArea em {
+    font-weight: bold;
+    font-style: normal;
+    color: #900;
+}
+.setTable {
+    width: 100% !important;
+}
+.setTable td {
+    padding: 5px 5px;
+}
+.setTable td.td01 {
+    width: 80px;
+}
+#prefName,
+#prefName02 {
+    font-weight: bold;
+}
+#prefArea,
+#prefArea02 {
+}
+#address,
+#address02 {
+    color: #666;
+}
+#url_pc,
+#url_pc02 {
+    width: 60px;
+}
+#tdBtn,
+#tdBtn02 {
+    width: 80px;
+}
+#prefNameArea em.c02 {
+    color: #6daf6f;
+}
+.outBtn {
+}
+#prefSelectArea {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px dotted #6daee1;
+    background-color: #ebf3fe;
+}
+
+#gWrapper {
+    margin: 15px 10px;
+}
+#gWrapper:after {
+    font-size: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ' ';
+}
+* html #gWrapper {
+    zoom: 1;
+}
+*:first-child + html #gWrapper {
+    zoom: 1;
+}
+/* // #gWrapper|clearfix */
+
+#outputArea {
+    float: left;
+    width: 70%;
+}
+
+.leadP {
+    font-size: 12px;
+    margin: 0;
+}
+
+#sideArea {
+    float: right;
+    width: 25%;
+}
+#sideArea .block {
+    border: 1px solid #bebe8b;
+    background-color: #f8f5d7;
+}
+#sideArea .block .inner {
+    margin: 10px 25px;
+}
+#sideArea .block #save {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+
+#libTable {
+    margin: 10px 10px;
+}
+#libTable thead {
+    background-color: #eee;
+}
+#libTable thead {
+}
+#libTable tr:hover {
+    background-color: #f6f6f6;
+}
+#libTable tbody th:hover {
+    cursor: pointer;
+}
+#libTable th,
+#libTable td {
+    font-size: 12px;
+    padding: 10px 10px !important;
+    text-align: left !important;
+}
+#libTable td b {
+    font-weight: bold;
+    color: #900;
+}
+#libTable td.address,
+#libTable td.url {
+}
+#libTable .pref {
+    margin-right: 10px;
+}
+
+#saveBlock {
+    display: none;
+}
+
+/*amazon*/
+#output {
+    margin: 10px 0 10px 0;
+    padding: 0 0 5px 0;
+    border-top: 2px solid #ccc;
+}
+#output #prog {
+    text-align: center;
+}
+#output #prog img {
+}
+#output #prog p {
+    margin: 3px 0;
+}
+#output #libLead {
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    padding: 2px 10px;
+    color: #d26600;
+}
+#output .optionLink a {
+    color: #004099 !important;
+}
+
+.hasISBNTable,
+#disTable {
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+.hasISBNTable td b,
+#disTable td b {
+    font-weight: bold;
+    color: #900;
+}
+.hasISBNTable th,
+.hasISBNTable td,
+#disTable th,
+#disTable td {
+    font-size: 12px !important;
+    padding: 3px 10px ;
+    text-align: left;
+    border-bottom: 1px dotted #ccc;
+}
+.hasISBNTable th:last-child,
+.hasISBNTable td:last-child,
+#disTable th:last-child,
+#disTable td:last-child,
+.hasISBNTable td.bgNone {
+    border-bottom: none;
+}
+.hasISBNTable th.tHead,
+#disTable th.tHead {
+    font-weight: bold;
+    padding: 5px 10px ;
+    background-color: #f8f8f8;
+}
+.hasISBNTable th.tHead a,
+#disTable th.tHead a {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #004099 !important;
+}
+.hasISBNTable th.tHead .ex,
+#disTable th.tHead .ex {
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 10px;
+    color: #999;
+}
+.hasISBNTable th,
+#disTable th {
+    font-weight: normal !important;
+}
+
+
+
+
+#reserveURL {
+    font-size: 12px !important;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+#reserveURL a {
+    padding: 0 10px;
+}
+#calilurl {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+#calilurl a {
+    color: #666;
+}
+#reserveURL #calilurl {
+    padding: 0;
+}
+#calilurlto {
+    margin-left: 15px;
+}
+.calilName {
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 15px;
+    color: #666 !important;
+}
+.calilName a {
+    color: #666 !important;
+}
+
+
+
+
+/*  */
+.aC {
+    text-align: center;
+}
+
+/**
+ * popup
+ */
+body#popup {
+    width: 200px;
+}
+body#popup .inner {
+    margin: 10px;
+}
+body#popup h1 {
+    font-size: 12px;
+    line-height: 1;
+    /*background-color: #f5f5f5;*/
+    padding: 0 5px 5px;
+    border-bottom: 1px solid #ccc;
+}
+body#popup ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+}
+body#popup ul li {
+    margin: 0;
+}
+body#popup ul li a {
+    font-size: 12px;
+}
+#goto_option {
+    cursor: pointer;
+}
